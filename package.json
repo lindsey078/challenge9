@@ -9,10 +9,33 @@
     "preview": "vite preview"
   },
   "devDependencies": {
-    "typescript": "^5.4.5",
-    "vite": "^5.2.0"
+    "@types/cors": "^2.8.17",
+    "@types/express": "^5.0.0",
+    "@types/node": "^22.13.7",
+    "@types/uuid": "^10.0.0",
+    "typescript": "^5.8.2",
+    "vite": "^6.2.0"
   },
   "dependencies": {
-    "dayjs": "^1.11.10"
-  }
+    "axios": "^1.8.1",
+    "cors": "^2.8.5",
+    "dayjs": "^1.11.10",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "fs": "^0.0.1-security",
+    "uuid": "^11.1.0"
+  },
+  "description": "",
+  "main": "vite.config.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lindsey078/challenge9.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lindsey078/challenge9/issues"
+  },
+  "homepage": "https://github.com/lindsey078/challenge9#readme"
 }

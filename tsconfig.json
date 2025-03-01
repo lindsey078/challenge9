@@ -5,6 +5,10 @@
     "lib": ["ES2020", "DOM", "DOM.Iterable"],
     "skipLibCheck": true,
 
+    /* ✅ Use CommonJS instead of NodeNext */
+    "module": "CommonJS",
+    "moduleResolution": "Node",
+
     /* Bundler mode */
     "allowImportingTsExtensions": true,
     "resolveJsonModule": true,
@@ -13,3 +17,4 @@
   },
   "include": ["src"]
 }
+
